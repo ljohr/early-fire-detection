@@ -8,7 +8,6 @@ To train the YOLOv4 model
 
 To train the YOLOv5 model
 ```
-
 !python train.py --img 416 --batch 16 --epochs 100  --data /content/drive/MyDrive/Yolov5_FireDetection/Yolo_smoke/data.yaml --weights yolov5m.pt --cache --name result_5m_weight
 ```
 
