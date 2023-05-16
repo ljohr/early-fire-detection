@@ -1,0 +1,1 @@
+The full YOLOv4 with weights is too large to upload to GitHub [Here is a Google Drive link to the folder](https://drive.google.com/drive/folders/1ZyvnWQA5IuBNJhr83QKKuHfnIrFEwfhK?usp=share_link)
