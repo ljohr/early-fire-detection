@@ -126,7 +126,6 @@ Pretrained on Image Net
 # Faster R-CNN
 
 ## Method
-Trained
 
 <details>
   <summary>Major Changes</summary>
