@@ -71,7 +71,10 @@ Trained for a total of 100 epochs with weights pretrained on COCO Dataset
   
   ## Major Changes
   **changes**
-  - Changed 
+  - lr0 = 0.005,  # initial learning rate (SGD=1E-2, Adam=1E-3) 
+  - degrees = 45,  # image rotation (+/- deg)
+  - shear = 0.5,  # image shear (+/- deg)
+  - flipud = 0.5,  # image flip up-down (probability)
     
 </details>
 
