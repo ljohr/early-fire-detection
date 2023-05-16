@@ -1,0 +1,32 @@
+Tensor Cores are used.
+ Last accuracy mAP@0.50 = 51.44 %, best = 51.44 % 
+ 3200: 4.146351, 3.033292 avg loss, 0.000075 rate, 0.478716 seconds, 25600 images, 0.010860 hours left
+Resizing to initial size: 608 x 608  try to allocate additional workspace_size = 135.27 MB 
+ CUDA allocate done! 
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+200
+ detections_count = 3591, unique_truth_count = 311  
+class_id = 0, name = smoke, ap = 62.64%   	 (TP = 106, FP = 36) 
+class_id = 1, name = fire, ap = 39.48%   	 (TP = 58, FP = 57) 
+
+ for conf_thresh = 0.25, precision = 0.64, recall = 0.53, F1-score = 0.58 
+ for conf_thresh = 0.25, TP = 164, FP = 93, FN = 147, average IoU = 43.40 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.510572, or 51.06 % 
+Total Detection Time: 3 Seconds
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
+
+ mean_average_precision (mAP@0.50) = 0.510572 
+ MJPEG-stream sent. 
+Saving weights to backup/yolov4-custom_last.weights
+Saving weights to backup/yolov4-custom_final.weights
+If you want to train from the beginning, then use flag in the end of training command: -clear 

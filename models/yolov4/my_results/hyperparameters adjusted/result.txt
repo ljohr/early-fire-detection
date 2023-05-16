@@ -1,0 +1,1026 @@
+ CUDNN_HALF=1 
+net.optimized_memory = 0 
+mini_batch = 1, batch = 8, time_steps = 1, train = 0 
+Create CUDA-stream - 0 
+ Create cudnn-handle 0 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+nms_kind: greedynms (1), beta = 0.600000 
+
+ seen 64, trained: 25 K-images (0 Kilo-batches_64) 
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03744_jpg.rf.a655c1c94e5cbe38523912735880d8b6.jpg: Predicted in 9.495000 milli-seconds.
+smoke: 32%	(left_x: -219   top_y:  -21   width: 1087   height:  610)
+fire: 29%	(left_x:   34   top_y:  424   width:  176   height:  146)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03746_jpg.rf.85e6188483c21a3cdcc9030993f2a1c4.jpg: Predicted in 9.345000 milli-seconds.
+fire: 37%	(left_x:   82   top_y:  116   width:   29   height:   26)
+fire: 56%	(left_x:  188   top_y:  121   width:   49   height:   67)
+fire: 55%	(left_x:  290   top_y:  170   width:  139   height:  231)
+fire: 27%	(left_x:  327   top_y:  243   width:  115   height:  141)
+fire: 34%	(left_x:  564   top_y:  479   width:   25   height:   43)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03747_jpg.rf.dca4d1659fc929448ae2efa615a752c9.jpg: Predicted in 9.241000 milli-seconds.
+fire: 65%	(left_x:  281   top_y:  383   width:   34   height:   60)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03750_jpg.rf.db95230025a786d608de9fa614ab4fc5.jpg: Predicted in 9.379000 milli-seconds.
+smoke: 55%	(left_x:  320   top_y:  294   width:  131   height:  106)
+fire: 82%	(left_x:  328   top_y:  364   width:   40   height:   37)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03751_jpg.rf.0175837b798689b9e8a5ef27c038e7a0.jpg: Predicted in 9.312000 milli-seconds.
+smoke: 39%	(left_x:   17   top_y:  327   width:   70   height:  100)
+fire: 44%	(left_x:   17   top_y:  378   width:   28   height:   30)
+fire: 53%	(left_x:  368   top_y:  257   width:   88   height:   53)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03753_jpg.rf.0ed4037bb5f75ffa6be6cccbee2ab25f.jpg: Predicted in 9.297000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03754_jpg.rf.a5d9f06ae6e2c1c2a81af9df3bf5295d.jpg: Predicted in 9.268000 milli-seconds.
+fire: 31%	(left_x:    2   top_y:  157   width:   37   height:   35)
+fire: 47%	(left_x:  113   top_y:  203   width:   22   height:   23)
+fire: 28%	(left_x:  415   top_y:  291   width:   74   height:   32)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03755_jpg.rf.8a2c5f6f3a8b39a622ba1cb0a40013d4.jpg: Predicted in 9.266000 milli-seconds.
+fire: 42%	(left_x:   61   top_y:  314   width:   26   height:   29)
+fire: 34%	(left_x:  333   top_y:  276   width:   21   height:   27)
+fire: 40%	(left_x:  430   top_y:  194   width:   58   height:   64)
+fire: 85%	(left_x:  568   top_y:  157   width:   62   height:   43)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03756_jpg.rf.e11920f1d4115cb3ee2d3c9f28342844.jpg: Predicted in 9.156000 milli-seconds.
+smoke: 29%	(left_x:  228   top_y:  515   width:  185   height:  135)
+smoke: 52%	(left_x:  236   top_y:  183   width:   43   height:   47)
+fire: 61%	(left_x:  242   top_y:  189   width:   35   height:   43)
+fire: 35%	(left_x:  251   top_y:  200   width:   26   height:   31)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03757_jpg.rf.869857b6894b0af3071cee22980c7ed4.jpg: Predicted in 9.171000 milli-seconds.
+smoke: 67%	(left_x:  292   top_y:  192   width:  105   height:   66)
+fire: 73%	(left_x:  303   top_y:  199   width:   73   height:   58)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03758_jpg.rf.d1d492bbf6ae0f75a370e50b19868ef6.jpg: Predicted in 9.040000 milli-seconds.
+smoke: 47%	(left_x:  282   top_y:  123   width:  135   height:  146)
+fire: 92%	(left_x:  306   top_y:  148   width:   92   height:  125)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03759_jpg.rf.f2c1f19887e7fa6f04a453022a03d44d.jpg: Predicted in 9.017000 milli-seconds.
+fire: 79%	(left_x:  272   top_y:   84   width:  117   height:  125)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03760_jpg.rf.50a57d022297684faea9f0562a8bbbd0.jpg: Predicted in 8.975000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03761_jpg.rf.fa82952e0848163dccad4cc53752a656.jpg: Predicted in 8.933000 milli-seconds.
+smoke: 48%	(left_x:  196   top_y:   47   width:  173   height:  273)
+fire: 67%	(left_x:  330   top_y:  309   width:   36   height:   42)
+fire: 53%	(left_x:  516   top_y:  285   width:   37   height:   53)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03763_jpg.rf.bb5bc8aa9f0fb73404a616944ea52a9e.jpg: Predicted in 9.152000 milli-seconds.
+smoke: 33%	(left_x:  209   top_y:   39   width:  223   height:  362)
+fire: 63%	(left_x:  374   top_y:  391   width:   54   height:   72)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03764_jpg.rf.60a16d5a6daff3dfa591692283f18594.jpg: Predicted in 9.200000 milli-seconds.
+fire: 54%	(left_x:  383   top_y:  434   width:   53   height:   86)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03765_jpg.rf.e9a32730d4eb560a6cbcb182c2d8c788.jpg: Predicted in 9.026000 milli-seconds.
+fire: 31%	(left_x:  326   top_y:  475   width:   61   height:  156)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03766_jpg.rf.f78dd702b0dc211df7ead994a466e986.jpg: Predicted in 9.066000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03767_jpg.rf.528f5ab9617db1d4a2c09d9816d68c1c.jpg: Predicted in 9.182000 milli-seconds.
+fire: 36%	(left_x:   51   top_y:  300   width:   23   height:   33)
+fire: 55%	(left_x:  520   top_y:  205   width:   31   height:   34)
+fire: 35%	(left_x:  592   top_y:  166   width:   20   height:   34)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03768_jpg.rf.bb366836e0e4fd09ef7cee53450f81d7.jpg: Predicted in 9.220000 milli-seconds.
+fire: 34%	(left_x:  267   top_y:  194   width:   27   height:   37)
+fire: 41%	(left_x:  308   top_y:   99   width:   91   height:  104)
+fire: 33%	(left_x:  345   top_y:   32   width:   13   height:   30)
+fire: 33%	(left_x:  463   top_y:   95   width:   71   height:   35)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03774_jpg.rf.a22dd5ba4e30e9f7baa8d8559be8860b.jpg: Predicted in 9.248000 milli-seconds.
+fire: 45%	(left_x:  318   top_y:  354   width:   61   height:   79)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03775_jpg.rf.c06841c4f1ee7624a7aaaa649e5331e9.jpg: Predicted in 9.216000 milli-seconds.
+fire: 26%	(left_x:  357   top_y:  292   width:   64   height:   67)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03777_jpg.rf.ef8573ae10ba4079ac65f57e8aca3b72.jpg: Predicted in 10.675000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03778_jpg.rf.c40152cdce91ea5d4d104862e65971b2.jpg: Predicted in 8.993000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03780_jpg.rf.8fce3fbbddfdd25b1fcb9d9cd4694a45.jpg: Predicted in 9.119000 milli-seconds.
+fire: 32%	(left_x:  140   top_y:  226   width:   98   height:  129)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03808_jpg.rf.ce08129c0e1151b74dc4598477223105.jpg: Predicted in 9.141000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03809_jpg.rf.3e467381b8100d023fcc8b129a1a14eb.jpg: Predicted in 9.146000 milli-seconds.
+fire: 41%	(left_x:  315   top_y:  279   width:  270   height:  129)
+fire: 45%	(left_x:  605   top_y:  340   width:   26   height:   36)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03810_jpg.rf.b250a5449455df53c3898d90f81e42e4.jpg: Predicted in 9.038000 milli-seconds.
+fire: 35%	(left_x:   10   top_y:   11   width:  138   height:  149)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03811_jpg.rf.d952cc7e028d1847e4d23e5f3a79d559.jpg: Predicted in 9.062000 milli-seconds.
+fire: 25%	(left_x:  566   top_y:  392   width:   22   height:   32)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03812_jpg.rf.5fd9c9c419ed0bc7d48d8b13af58aa2f.jpg: Predicted in 9.222000 milli-seconds.
+fire: 67%	(left_x:   69   top_y:  310   width:  103   height:   72)
+fire: 34%	(left_x:   80   top_y:  316   width:   64   height:   83)
+fire: 26%	(left_x:  309   top_y:  267   width:   44   height:   50)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03813_jpg.rf.50568497baa60ccfd10670f77b9bd80e.jpg: Predicted in 9.228000 milli-seconds.
+smoke: 26%	(left_x:  259   top_y:  361   width:  103   height:  110)
+fire: 89%	(left_x:  266   top_y:  379   width:   95   height:   88)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03814_jpg.rf.3d52b239796a0c6a632092af06235b64.jpg: Predicted in 9.451000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03815_jpg.rf.2613d86e59eeaff9c6a330d3b5da93c8.jpg: Predicted in 9.177000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03817_jpg.rf.71ac21e677f6b182768bfbf8525a7f53.jpg: Predicted in 9.140000 milli-seconds.
+fire: 32%	(left_x:   56   top_y:   29   width:  191   height:  172)
+fire: 27%	(left_x:  222   top_y:  263   width:  396   height:  247)
+fire: 38%	(left_x:  524   top_y:  110   width:  119   height:  278)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03819_jpg.rf.f287f4fec427075f594807789eaa007c.jpg: Predicted in 9.089000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03820_jpg.rf.97b2cf94973e6db0a4a9f64739d9f546.jpg: Predicted in 9.321000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03821_jpg.rf.0f2c33b1b611fcaed1c87c3765ae32d4.jpg: Predicted in 9.442000 milli-seconds.
+fire: 68%	(left_x:  271   top_y:  202   width:   44   height:   52)
+fire: 29%	(left_x:  457   top_y:  165   width:  194   height:  384)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03822_jpg.rf.036769c5c402bfb10677932066e6c450.jpg: Predicted in 9.315000 milli-seconds.
+fire: 34%	(left_x:  133   top_y:  227   width:  440   height:  200)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03824_jpg.rf.5ae39aff39fee7a9b2c23a768da137bf.jpg: Predicted in 9.236000 milli-seconds.
+fire: 41%	(left_x:  108   top_y:  194   width:  488   height:  253)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03825_jpg.rf.7d80125e82e04894d065472a77bedf95.jpg: Predicted in 9.137000 milli-seconds.
+fire: 45%	(left_x:  233   top_y:  181   width:  369   height:  284)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03827_jpg.rf.ec3b8c64a8452e74b586eaaf044e65cc.jpg: Predicted in 9.457000 milli-seconds.
+fire: 63%	(left_x:  165   top_y:  230   width:   25   height:   60)
+fire: 34%	(left_x:  341   top_y:   84   width:   83   height:   82)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03829_jpg.rf.8bac0ee2f69db77f4392b01cf11784c0.jpg: Predicted in 9.205000 milli-seconds.
+fire: 31%	(left_x:   15   top_y:  317   width:   81   height:   69)
+fire: 33%	(left_x:  277   top_y:  329   width:   34   height:   42)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03830_jpg.rf.e29c1d7664e4bbc1985dcd35db429149.jpg: Predicted in 9.415000 milli-seconds.
+smoke: 31%	(left_x:   54   top_y:   45   width:  590   height:  211)
+fire: 29%	(left_x:  240   top_y:  190   width:  362   height:  272)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03831_jpg.rf.f22df7556634796b0033094c1689877a.jpg: Predicted in 9.147000 milli-seconds.
+fire: 45%	(left_x:  222   top_y:  294   width:   15   height:   29)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03832_jpg.rf.e9503296ff714106ef0447a0936e56f3.jpg: Predicted in 9.395000 milli-seconds.
+fire: 26%	(left_x:  150   top_y:  242   width:   25   height:   38)
+fire: 41%	(left_x:  330   top_y:  227   width:   32   height:   45)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03834_jpg.rf.f916742335c5c926f501d2a7e61a0de2.jpg: Predicted in 9.129000 milli-seconds.
+fire: 31%	(left_x:   20   top_y:  144   width:  190   height:  355)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03835_jpg.rf.504a0194a439afc76c04b799876150ce.jpg: Predicted in 9.340000 milli-seconds.
+fire: 31%	(left_x:    2   top_y:  169   width:   44   height:   82)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03837_jpg.rf.af3fbe985f1a8bdcf88300369e48a783.jpg: Predicted in 9.270000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03838_jpg.rf.9c331388f36663af85ebffe218847744.jpg: Predicted in 9.474000 milli-seconds.
+fire: 34%	(left_x:   55   top_y:  235   width:  460   height:  245)
+fire: 37%	(left_x:  452   top_y:  341   width:   30   height:   36)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03840_jpg.rf.c4acf8b17637c99f31aa1880ef62b479.jpg: Predicted in 9.409000 milli-seconds.
+fire: 31%	(left_x:  276   top_y:  330   width:  105   height:   92)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03841_jpg.rf.1d74ea983c625846a23ef6317d478066.jpg: Predicted in 9.487000 milli-seconds.
+fire: 33%	(left_x:   -2   top_y:  252   width:  243   height:  345)
+fire: 39%	(left_x:  278   top_y:  288   width:   64   height:  112)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03842_jpg.rf.e83e7e6db3229d83ad0ba812cd47be8c.jpg: Predicted in 9.421000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03843_jpg.rf.1940358ec95d4848e5bcfed8c75fa610.jpg: Predicted in 9.482000 milli-seconds.
+fire: 28%	(left_x:  118   top_y:  241   width:  397   height:  299)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03844_jpg.rf.58fafb2e1f5f2b8d9ec1faed12989b21.jpg: Predicted in 9.672000 milli-seconds.
+fire: 40%	(left_x:    0   top_y:  382   width:   23   height:   53)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03845_jpg.rf.5e2f5134b3dd35fe396f88bcc74649d8.jpg: Predicted in 9.563000 milli-seconds.
+fire: 48%	(left_x:  334   top_y:  131   width:  117   height:  106)
+fire: 50%	(left_x:  347   top_y:  362   width:   27   height:   73)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03846_jpg.rf.1d85c1386d377d8d1a59392e4d51c89e.jpg: Predicted in 9.451000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03847_jpg.rf.a3c0c34b146d8fdb77c17202d42bf6f5.jpg: Predicted in 9.564000 milli-seconds.
+fire: 32%	(left_x:  249   top_y:  157   width:  333   height:  263)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03848_jpg.rf.0f683505bdf491a8e6b49665679a69e4.jpg: Predicted in 9.274000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03849_jpg.rf.69945e869a5f8f09bc83451abb89118e.jpg: Predicted in 9.573000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03850_jpg.rf.b582e4cf8600e4b234a040691e0e701c.jpg: Predicted in 9.516000 milli-seconds.
+fire: 28%	(left_x:  285   top_y:  378   width:   43   height:   26)
+fire: 32%	(left_x:  311   top_y:  489   width:   12   height:   23)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03851_jpg.rf.4afd088080867d664fddf8c932702a17.jpg: Predicted in 9.236000 milli-seconds.
+fire: 33%	(left_x:  533   top_y:  281   width:   21   height:   38)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03852_jpg.rf.69a3d7634fa7fe4c0d9b550809852687.jpg: Predicted in 9.214000 milli-seconds.
+fire: 42%	(left_x:  167   top_y:  260   width:   64   height:   59)
+fire: 56%	(left_x:  312   top_y:  170   width:  148   height:  175)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03854_jpg.rf.3df07406ce746a831ce7a718fccdccd6.jpg: Predicted in 9.239000 milli-seconds.
+smoke: 53%	(left_x:  161   top_y:    0   width:  316   height:  191)
+fire: 28%	(left_x:  205   top_y:  122   width:  303   height:  260)
+fire: 43%	(left_x:  219   top_y:  117   width:   70   height:   76)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03855_jpg.rf.dd99c376834401ab4b13d2b1d5d97f5a.jpg: Predicted in 9.267000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03856_jpg.rf.99ff47c75211b85968779097e73e479e.jpg: Predicted in 9.190000 milli-seconds.
+fire: 40%	(left_x:  135   top_y:  515   width:   38   height:   53)
+fire: 33%	(left_x:  386   top_y:   14   width:  142   height:  143)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03857_jpg.rf.6ec2853ac71af0aac0c85fb8c8059491.jpg: Predicted in 9.181000 milli-seconds.
+fire: 50%	(left_x:   29   top_y:  549   width:   62   height:   63)
+fire: 29%	(left_x:  262   top_y:  488   width:  251   height:  151)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03858_jpg.rf.6ef5d1b74bd96d97098ff962d350722f.jpg: Predicted in 9.191000 milli-seconds.
+fire: 30%	(left_x:  122   top_y:  147   width:   80   height:   58)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03859_jpg.rf.570c7596923d4aa5870b6b69e4176885.jpg: Predicted in 9.239000 milli-seconds.
+fire: 32%	(left_x:  145   top_y:  561   width:   29   height:   80)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03861_jpg.rf.ea05f12436e4e73460504f36ea44cdcd.jpg: Predicted in 9.152000 milli-seconds.
+fire: 29%	(left_x:  169   top_y:  291   width:  164   height:   47)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03862_jpg.rf.aff1d3a3b9c90b2bd06180ab51b5c421.jpg: Predicted in 9.191000 milli-seconds.
+fire: 26%	(left_x:   -4   top_y:  352   width:  179   height:  191)
+fire: 27%	(left_x:  367   top_y:  583   width:   67   height:   64)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03863_jpg.rf.429989ea153c6457430d477573fd89d8.jpg: Predicted in 9.240000 milli-seconds.
+fire: 30%	(left_x:  136   top_y:  181   width:  229   height:  272)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03864_jpg.rf.e18b62b7e4b4c27d39a1b2d67524904b.jpg: Predicted in 9.151000 milli-seconds.
+fire: 44%	(left_x:   32   top_y:  373   width:  119   height:   53)
+fire: 63%	(left_x:  213   top_y:  471   width:  167   height:   55)
+fire: 29%	(left_x:  227   top_y:  387   width:   22   height:   23)
+fire: 38%	(left_x:  470   top_y:  318   width:   16   height:   34)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03865_jpg.rf.af4c5c66d2b98c2ab9009d42de024532.jpg: Predicted in 9.176000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03866_jpg.rf.2f8f0ab16dfa581176a4542d48bc7aeb.jpg: Predicted in 9.157000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03867_jpg.rf.dabef9524b6ec2f87a428bd14a3d1820.jpg: Predicted in 9.290000 milli-seconds.
+fire: 36%	(left_x:   34   top_y:  297   width:   52   height:   89)
+fire: 34%	(left_x:   96   top_y:  298   width:   17   height:   38)
+fire: 27%	(left_x:  284   top_y:  208   width:  193   height:  222)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03868_jpg.rf.ee880ad7c527ff359c0689d89aa48961.jpg: Predicted in 9.279000 milli-seconds.
+fire: 30%	(left_x:   91   top_y:  251   width:  120   height:  130)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03873_jpg.rf.1258f5b5d0958e64cf42433272bb84a0.jpg: Predicted in 9.251000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03874_jpg.rf.091611303b6c459a55362553b7b0ce44.jpg: Predicted in 9.186000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03875_jpg.rf.e2c5c7f4c6f0b8b74c440cfee04c339d.jpg: Predicted in 9.173000 milli-seconds.
+fire: 26%	(left_x:  194   top_y:   92   width:  127   height:  187)
+fire: 47%	(left_x:  241   top_y:  362   width:   42   height:   97)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03876_jpg.rf.beeccec3cb70160452e121464aaa1a73.jpg: Predicted in 9.213000 milli-seconds.
+fire: 34%	(left_x:  451   top_y:  329   width:  155   height:  265)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03877_jpg.rf.3095f09fddad0446249558ab52dcc74c.jpg: Predicted in 9.320000 milli-seconds.
+fire: 46%	(left_x:  179   top_y:  409   width:   25   height:   37)
+fire: 27%	(left_x:  233   top_y:  443   width:   22   height:   71)
+fire: 29%	(left_x:  517   top_y:  280   width:   37   height:   62)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03878_jpg.rf.f916b6f97a0144ab6e11a35ead2687ed.jpg: Predicted in 9.214000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03879_jpg.rf.f965a35f89916799feac2a19a966420e.jpg: Predicted in 9.245000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03880_jpg.rf.5861157801b12c775b03c9707a8400a1.jpg: Predicted in 9.177000 milli-seconds.
+fire: 58%	(left_x:  350   top_y:  259   width:   33   height:   31)
+fire: 27%	(left_x:  383   top_y:  253   width:   73   height:   60)
+fire: 32%	(left_x:  406   top_y:  243   width:   24   height:   48)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03881_jpg.rf.170e3f914a758f9641f6bee45618c619.jpg: Predicted in 9.174000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03883_jpg.rf.00668ca100fb067d9e5c78fd2dadcb53.jpg: Predicted in 9.223000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03884_jpg.rf.6feb106c98d70b889d9c58b662fc96d5.jpg: Predicted in 9.067000 milli-seconds.
+fire: 39%	(left_x:  412   top_y:  495   width:   39   height:   37)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03885_jpg.rf.1363b96a1ccd5fde2d524aefec9c445c.jpg: Predicted in 9.084000 milli-seconds.
+fire: 26%	(left_x:  271   top_y:  354   width:  175   height:   44)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03886_jpg.rf.8f567f100d744c3b6aec1d55cd995fa8.jpg: Predicted in 9.092000 milli-seconds.
+fire: 63%	(left_x:  247   top_y:   48   width:   59   height:  134)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03887_jpg.rf.c285326b006cb7b1d2956918f0bc64a1.jpg: Predicted in 9.082000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03888_jpg.rf.9457379b2a3e1368e43b3dc462de0069.jpg: Predicted in 9.063000 milli-seconds.
+fire: 46%	(left_x:  220   top_y:  186   width:  141   height:  209)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03889_jpg.rf.429c614c0787d2e7cc1159480e46f7f1.jpg: Predicted in 9.136000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03890_jpg.rf.63d14bb60b98cced691a818f0ce2c209.jpg: Predicted in 9.251000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03891_jpg.rf.4796a90aa30d903f356ec9486f0238c7.jpg: Predicted in 9.245000 milli-seconds.
+fire: 43%	(left_x:  296   top_y:  351   width:   43   height:   29)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03892_jpg.rf.708ddd00e147a9501a70ffc3f9f347d0.jpg: Predicted in 9.106000 milli-seconds.
+fire: 29%	(left_x:  304   top_y:  243   width:   26   height:   47)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03893_jpg.rf.646859a9510f7bf35ec540701a973b11.jpg: Predicted in 9.185000 milli-seconds.
+fire: 65%	(left_x:  119   top_y:  457   width:   88   height:   53)
+fire: 27%	(left_x:  201   top_y:   64   width:  233   height:  313)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03894_jpg.rf.6c4c79241bd692c51f0a646c983f4105.jpg: Predicted in 9.133000 milli-seconds.
+fire: 41%	(left_x:  293   top_y:  354   width:  117   height:   70)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03895_jpg.rf.2424384cc01bb00aacb3b32a54994d18.jpg: Predicted in 9.295000 milli-seconds.
+fire: 32%	(left_x:  562   top_y:  492   width:   52   height:   22)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03896_jpg.rf.e53a203f57c86632fbb70e7fead8c750.jpg: Predicted in 9.038000 milli-seconds.
+fire: 55%	(left_x:  182   top_y:  245   width:  100   height:   99)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03897_jpg.rf.6bd173013bb217e8e9fcf2fa512bc813.jpg: Predicted in 9.175000 milli-seconds.
+fire: 35%	(left_x:  239   top_y:  240   width:   54   height:   72)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03898_jpg.rf.3ad46dc26cc50001ccab8722f54104f5.jpg: Predicted in 9.251000 milli-seconds.
+fire: 27%	(left_x:  288   top_y:  271   width:   84   height:  117)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03899_jpg.rf.f6e99aea9a7a641f6ad5c259201a9f55.jpg: Predicted in 9.112000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03900_jpg.rf.8099d5dc5d88f6633b2c101b9ad69f96.jpg: Predicted in 9.124000 milli-seconds.
+fire: 43%	(left_x:  276   top_y:  289   width:   75   height:  107)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03901_jpg.rf.1cfb9c4ee08a1d1624ef58ec42b681a2.jpg: Predicted in 9.146000 milli-seconds.
+fire: 39%	(left_x:  312   top_y:  525   width:   44   height:  111)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03902_jpg.rf.9f7ed7dfe7a60876eab3e58b70fcf9c2.jpg: Predicted in 9.193000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03903_jpg.rf.947d28b81fe2d9279127e483d7f84737.jpg: Predicted in 9.159000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03904_jpg.rf.f1946725178fa4f1b7a2d664bd033630.jpg: Predicted in 9.174000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03905_jpg.rf.ccfc35c22708c06e4c1d7dec8be03983.jpg: Predicted in 9.129000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03906_jpg.rf.9d1bc9332a40f7775b4fac28569d682a.jpg: Predicted in 9.027000 milli-seconds.
+fire: 26%	(left_x:  221   top_y:  269   width:  256   height:  236)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03907_jpg.rf.6bcede160bdb87c9a2d0989083eadc71.jpg: Predicted in 9.184000 milli-seconds.
+fire: 44%	(left_x:  248   top_y:  207   width:   94   height:  112)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03908_jpg.rf.2452ac1307985f1150943019b1192119.jpg: Predicted in 9.136000 milli-seconds.
+fire: 40%	(left_x:  242   top_y:  377   width:   31   height:   35)
+fire: 35%	(left_x:  262   top_y:  568   width:   38   height:   57)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03910_jpg.rf.fdb444b2665eda911c6594894e6e78a9.jpg: Predicted in 9.076000 milli-seconds.
+fire: 50%	(left_x:  324   top_y:  329   width:   71   height:  115)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03911_jpg.rf.c7144eb99b6145153252dba896fcedb9.jpg: Predicted in 9.260000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03912_jpg.rf.da96629f7ea5414663d046435c854479.jpg: Predicted in 9.108000 milli-seconds.
+smoke: 29%	(left_x:  343   top_y:  -19   width:  291   height:  540)
+fire: 31%	(left_x:  377   top_y:  354   width:  244   height:  269)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03913_jpg.rf.5ab4fa1879cceac9fc7807ff053389d4.jpg: Predicted in 9.134000 milli-seconds.
+fire: 51%	(left_x:  212   top_y:  243   width:   61   height:  104)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03914_jpg.rf.56a6c09f96992b079d3e39c07abe2a69.jpg: Predicted in 9.073000 milli-seconds.
+fire: 27%	(left_x:  396   top_y:  350   width:  104   height:   91)
+fire: 36%	(left_x:  419   top_y:  113   width:   33   height:   68)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03915_jpg.rf.861c4d6e28b08bfc444f1808dddba807.jpg: Predicted in 9.152000 milli-seconds.
+fire: 27%	(left_x:  468   top_y:  196   width:  104   height:  237)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03918_jpg.rf.a65c01928fe33de604ba60a2e8714c09.jpg: Predicted in 9.089000 milli-seconds.
+fire: 26%	(left_x:  307   top_y:  241   width:   14   height:   19)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03919_jpg.rf.4c0b345e366a436d45352615f9af836c.jpg: Predicted in 9.113000 milli-seconds.
+fire: 41%	(left_x:  312   top_y:  309   width:  106   height:   81)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03921_jpg.rf.77b15e00cbf184a307b6adcf164afb28.jpg: Predicted in 9.243000 milli-seconds.
+smoke: 26%	(left_x:  266   top_y:    1   width:  373   height:  306)
+fire: 79%	(left_x:  345   top_y:  234   width:   92   height:   94)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03922_jpg.rf.60bc15d0a2b29cc183f613d906f707e3.jpg: Predicted in 9.053000 milli-seconds.
+fire: 64%	(left_x:  388   top_y:  277   width:   89   height:   83)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03923_jpg.rf.a7947d366bfc80a9cf0b23bfd2cbe023.jpg: Predicted in 9.321000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03924_jpg.rf.f003d9319ccbb3cb1c803356008d4196.jpg: Predicted in 9.144000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03925_jpg.rf.8956e2cb9b2e175cc35621140e995af2.jpg: Predicted in 9.152000 milli-seconds.
+fire: 50%	(left_x:  216   top_y:  300   width:   78   height:   95)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/WEB03926_jpg.rf.9175f21460824358f5093585afe5c7ff.jpg: Predicted in 9.237000 milli-seconds.
+fire: 32%	(left_x:  338   top_y:   60   width:  117   height:  181)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kcoc8ik6ni0848clxs0vif_jpeg_jpg.rf.eeca0b27e38bca408aa8878611fab247.jpg: Predicted in 9.289000 milli-seconds.
+smoke: 63%	(left_x:  361   top_y:  350   width:  163   height:   89)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kd4afx8g470701watkwxut_jpeg_jpg.rf.c824420ca37df810ff0dc41d7856b9fb.jpg: Predicted in 9.080000 milli-seconds.
+smoke: 67%	(left_x:  513   top_y:  280   width:   93   height:  100)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kdhymna0b10721v4wntit8_jpeg_jpg.rf.bcf2d9b6125a6a0e95c74961b794a503.jpg: Predicted in 9.156000 milli-seconds.
+smoke: 32%	(left_x:  338   top_y:  294   width:   81   height:   40)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kepbs9kdym0848hgpcf3y9_jpeg_jpg.rf.cf8396340439b301b50a73e9ab74c3d1.jpg: Predicted in 9.210000 milli-seconds.
+smoke: 72%	(left_x:  106   top_y:  299   width:  153   height:  103)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kewsaha6hh07215jgx1bp2_jpeg_jpg.rf.d839135fb74da5df503406426874bae0.jpg: Predicted in 9.006000 milli-seconds.
+smoke: 63%	(left_x:  127   top_y:  285   width:   53   height:  126)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kfhu4n8q7f0701ixmonyig_jpeg_jpg.rf.6cfd3d0ef2114eccd6566f2e2cfd53eb.jpg: Predicted in 9.104000 milli-seconds.
+smoke: 78%	(left_x:  250   top_y:  292   width:  150   height:  136)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kfjen48qhj0701wjkosmel_jpeg_jpg.rf.6ddd7d79742c367bf0ca6ecd9a798341.jpg: Predicted in 9.104000 milli-seconds.
+smoke: 47%	(left_x:  322   top_y:  157   width:  137   height:  216)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0khrg9xan7u0721mn5rxpzo_jpeg_jpg.rf.8b43449b639d6cd5bf36f716af62a09a.jpg: Predicted in 9.129000 milli-seconds.
+smoke: 74%	(left_x:  210   top_y:  233   width:   41   height:   85)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0khu2xz94nj070165dkfirk_jpeg_jpg.rf.b075717f7490cf5920104aa4a7830c7b.jpg: Predicted in 9.249000 milli-seconds.
+smoke: 59%	(left_x:  506   top_y:  314   width:  114   height:   82)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kmf5q58yik0944gdwwrqnt_jpeg_jpg.rf.7b4330d427d8caf14cb68599c48e146a.jpg: Predicted in 9.417000 milli-seconds.
+smoke: 72%	(left_x:  510   top_y:  311   width:  109   height:   94)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kmfd7ibcib0721v08q1jv0_jpeg_jpg.rf.11dcebb4592da6bb53fb2bf8949a5dab.jpg: Predicted in 9.010000 milli-seconds.
+smoke: 64%	(left_x:    9   top_y:   68   width:  143   height:  436)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kmftzekfwv0a46aj0nh5dz_jpeg_jpg.rf.4cc29ec92e272b4cb14665f3888cb3f9.jpg: Predicted in 9.059000 milli-seconds.
+smoke: 31%	(left_x:  500   top_y:  310   width:  118   height:   97)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kn8y5y9y3507018k5p06ma_jpeg_jpg.rf.9c758bd17ff200554442a833276ab613.jpg: Predicted in 9.274000 milli-seconds.
+smoke: 59%	(left_x:  186   top_y:  274   width:   26   height:   30)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kn966blrt008482afk6mhy_jpeg_jpg.rf.287389291d9efe35638e8e573d107387.jpg: Predicted in 9.127000 milli-seconds.
+smoke: 57%	(left_x:  169   top_y:  306   width:  355   height:   95)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kosu846k350794gya7bot0_jpeg_jpg.rf.4fa44da615217d478ca06282de6dcabb.jpg: Predicted in 10.495000 milli-seconds.
+smoke: 68%	(left_x:  490   top_y:  225   width:  112   height:  118)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kotq5d99760944cc8w1pib_jpeg_jpg.rf.e7c96bb4acc3a0077d6fcf475ec16778.jpg: Predicted in 9.105000 milli-seconds.
+smoke: 53%	(left_x:  228   top_y:  190   width:  178   height:  276)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0kp6k1p6lxe0794by4thy6r_jpeg_jpg.rf.a4d3419b5448e65a56a750870156028e.jpg: Predicted in 9.104000 milli-seconds.
+smoke: 77%	(left_x:  254   top_y:  274   width:   52   height:   44)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0l8cfmgahkk0838nbgj26un_jpeg_jpg.rf.ca8e3fa4787f381596a9f0370c2b63a7.jpg: Predicted in 9.131000 milli-seconds.
+smoke: 49%	(left_x:  164   top_y:  305   width:  363   height:   96)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0l9uumy9b4i0863izsuks74_jpeg_jpg.rf.1f9395f93420d41b803a08d6d0c07cc3.jpg: Predicted in 8.992000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0l9wcc5cyhb07010g94nwxz_jpeg_jpg.rf.09602f903624074dce468547508af841.jpg: Predicted in 9.095000 milli-seconds.
+smoke: 69%	(left_x:  287   top_y:   64   width:  249   height:  323)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0lwjms6i2ru0701i4l78d84_jpeg_jpg.rf.0fd43c4a9e52b0156b6be31834ce8122.jpg: Predicted in 9.081000 milli-seconds.
+smoke: 78%	(left_x:  325   top_y:  324   width:  181   height:  123)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0lxa18hic880701ux5axl97_jpeg_jpg.rf.a6c2d12b371800e281baa71048364789.jpg: Predicted in 9.930000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0lxeugahhve09449l5anbuj_jpeg_jpg.rf.0e9131e45f726e2ef073a6c49b25aab6.jpg: Predicted in 9.006000 milli-seconds.
+smoke: 26%	(left_x:  150   top_y:  328   width:  194   height:   52)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0m1n0c1hbus0863ti6kd58t_jpeg_jpg.rf.ff79cd8eb4ab39249137f9d1d425a957.jpg: Predicted in 9.398000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nd5l7girkp0848rd5cwpcq_jpeg_jpg.rf.802d2e8ee5d70477bfa8a9bbc1fd7002.jpg: Predicted in 9.076000 milli-seconds.
+smoke: 64%	(left_x:  444   top_y:  263   width:   98   height:   66)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nds16a43eg08630h6n5un1_jpeg_jpg.rf.d19cef519c03a1aeedd6a42fc8af40be.jpg: Predicted in 9.149000 milli-seconds.
+smoke: 32%	(left_x:  167   top_y:  343   width:   25   height:   32)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nehpd69bax0721onacbe33_jpeg_jpg.rf.186777d9998e109c0b78813f22ef326f.jpg: Predicted in 9.065000 milli-seconds.
+smoke: 70%	(left_x:  277   top_y:  307   width:  135   height:  115)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nepj3s015b0a88py3wvbqu_jpeg_jpg.rf.74d591a3750bee81cf5326f8b433f572.jpg: Predicted in 9.036000 milli-seconds.
+smoke: 45%	(left_x:  288   top_y:  213   width:  320   height:  142)
+smoke: 27%	(left_x:  321   top_y:  230   width:  128   height:  121)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nfo0y4a2a00721ek5g056r_jpeg_jpg.rf.3c155f6fd984b3261e284341d6aeddb5.jpg: Predicted in 9.381000 milli-seconds.
+smoke: 81%	(left_x:   89   top_y:  305   width:  178   height:   92)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nfsgb3a5cl0721k678jfzb_jpeg_jpg.rf.5c32d634febf17c44dd7916080ec687e.jpg: Predicted in 9.413000 milli-seconds.
+smoke: 83%	(left_x:  124   top_y:  254   width:   57   height:  187)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nftcfgka7e0848a9ie2b3b_jpeg_jpg.rf.494bf21f2c2d87f31dfd807cfc10c525.jpg: Predicted in 9.211000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0nftsdy5xck0838qb0yk262_jpeg_jpg.rf.25b98dd0069742153ba7cc15836820e8.jpg: Predicted in 9.298000 milli-seconds.
+smoke: 72%	(left_x:  114   top_y:  230   width:   84   height:  189)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0oukl7vtoje0944m2ijpxlm_jpeg_jpg.rf.87213e9b3e36898aeeebf16fa82578e2.jpg: Predicted in 9.065000 milli-seconds.
+smoke: 35%	(left_x:  187   top_y:  346   width:   38   height:   41)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ovkzw8secm0863zxuv11su_jpeg_jpg.rf.060018a00e10edc56484b865b50c1cef.jpg: Predicted in 9.136000 milli-seconds.
+smoke: 57%	(left_x:  115   top_y:  206   width:   57   height:  211)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ow7vs07tuz08485n4yz5si_jpeg_jpg.rf.13e75f2628a433b66839051dc7cae56e.jpg: Predicted in 9.112000 milli-seconds.
+smoke: 67%	(left_x:  481   top_y:  281   width:  131   height:  126)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0qbex0ljri20721b1v9gyp5_jpeg_jpg.rf.54361b30ef7d4ba26ce628d7fd36b296.jpg: Predicted in 9.071000 milli-seconds.
+smoke: 53%	(left_x:  323   top_y:  271   width:  117   height:   71)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0qbsnz6fcn40863jl1deoe9_jpeg_jpg.rf.874b7bff62cf543fab4af503ab44ffb4.jpg: Predicted in 9.310000 milli-seconds.
+smoke: 52%	(left_x:  290   top_y:  106   width:  272   height:  282)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0qd918zic840701hnezgpgy_jpeg_jpg.rf.57850a04b104638692d9f987eb07bc32.jpg: Predicted in 9.084000 milli-seconds.
+smoke: 42%	(left_x:  219   top_y:  180   width:  195   height:  294)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0qdgpy2ksso0721wbiaedz7_jpeg_jpg.rf.b27a7469c11446a7f2e004a44aff6d3f.jpg: Predicted in 9.152000 milli-seconds.
+smoke: 63%	(left_x:  266   top_y:  277   width:   46   height:   41)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0rp8yjl4f5b0838yi4z8ub1_jpeg_jpg.rf.2179f62c73ca4520ad65aba5aa2133f6.jpg: Predicted in 9.207000 milli-seconds.
+smoke: 31%	(left_x:  165   top_y:  268   width:   48   height:   32)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0rqdyeq4kxa08633xv2wqe1_jpeg_jpg.rf.6ab620f0be007f02258bf758ffed94c5.jpg: Predicted in 9.242000 milli-seconds.
+smoke: 68%	(left_x:  281   top_y:   97   width:  264   height:  266)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0rqf6p055aw0838g7rq1u9v_jpeg_jpg.rf.8dd8ff8409c365d2c5440aef1de664bb.jpg: Predicted in 9.022000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0rqkhjb4o7k0863lhsglv38_jpeg_jpg.rf.095f8828da0a0e69693a12e6c057c74b.jpg: Predicted in 9.054000 milli-seconds.
+smoke: 44%	(left_x:  162   top_y:  307   width:   90   height:   89)
+smoke: 31%	(left_x:  182   top_y:  322   width:   54   height:   69)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0rql046icek0a462kapdu97_jpeg_jpg.rf.e1e190cc7aba5776da2acb4bdb2bc4b5.jpg: Predicted in 9.137000 milli-seconds.
+smoke: 73%	(left_x:    3   top_y:  300   width:  152   height:  171)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0t2zodcyvqs0a46wwxb53xm_jpeg_jpg.rf.d343e521397b24c401050d86ac51176f.jpg: Predicted in 9.032000 milli-seconds.
+smoke: 65%	(left_x:  224   top_y:  273   width:   80   height:   42)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0t421swni18070115tymsht_jpeg_jpg.rf.6edac644404c8df2864f5d7f541fcf4c.jpg: Predicted in 9.167000 milli-seconds.
+smoke: 70%	(left_x:  457   top_y:  264   width:   76   height:   58)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0t4z1yrkmfv0794t2oqhd3f_jpeg_jpg.rf.2ff6a32d16e559ca40d9bf2210171ecf.jpg: Predicted in 9.115000 milli-seconds.
+smoke: 66%	(left_x:  526   top_y:  269   width:  105   height:  120)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0t59c0wnw4607010uyziiam_jpeg_jpg.rf.ddd715ea8f5d4ef4bb269522ef93678b.jpg: Predicted in 9.068000 milli-seconds.
+smoke: 87%	(left_x:   14   top_y:  217   width:  134   height:  224)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0t73htzoi4l0944t1g4vr7e_jpeg_jpg.rf.ade4302d3912ffed34c29b5c4775fd68.jpg: Predicted in 9.262000 milli-seconds.
+smoke: 73%	(left_x:  357   top_y:  327   width:  139   height:  115)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0t7cczuqxtt07212nj5eznh_jpeg_jpg.rf.54f8dfc00963d0a075c5bca0cad0dd0c.jpg: Predicted in 9.058000 milli-seconds.
+smoke: 61%	(left_x:  439   top_y:  268   width:  109   height:   57)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tszlepw02k0721zr71djfj_jpeg_jpg.rf.93f736a4772c53fa3301ef990dad2abd.jpg: Predicted in 9.112000 milli-seconds.
+smoke: 69%	(left_x:  501   top_y:  317   width:  122   height:   81)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tt2h2btoz109449lxjh5hi_jpeg_jpg.rf.9176f2cafeefa319ca0ef189574b2ce6.jpg: Predicted in 9.061000 milli-seconds.
+smoke: 83%	(left_x:  111   top_y:  275   width:   78   height:  159)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0twbr4hwf330721j3vv8j30_jpeg_jpg.rf.31d2d563f3d987ff1fd47dbffba1a21f.jpg: Predicted in 9.210000 milli-seconds.
+smoke: 28%	(left_x:  366   top_y:  317   width:   30   height:   52)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0twvs9zu5t00944ltnvijnz_jpeg_jpg.rf.8b44912f054e2af2a64fd5b2aabb89cd.jpg: Predicted in 9.102000 milli-seconds.
+smoke: 32%	(left_x:  166   top_y:  340   width:   53   height:   34)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0txg39r6n250848puinmu6k_jpeg_jpg.rf.e44851d0424ec3bb6d02df2e3f0063a9.jpg: Predicted in 9.165000 milli-seconds.
+smoke: 35%	(left_x:  286   top_y:  286   width:   20   height:   30)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0txsbnlsx040838wocuy68k_jpeg_jpg.rf.4636aafd47842694f87a4c9dfb11130b.jpg: Predicted in 9.139000 milli-seconds.
+smoke: 49%	(left_x:  184   top_y:  272   width:   31   height:   33)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0txvaz6ub6h09447ux3qyyt_jpeg_jpg.rf.9bd5c9a374f1827ead757fc9a4050a62.jpg: Predicted in 9.162000 milli-seconds.
+smoke: 50%	(left_x:  182   top_y:  276   width:   31   height:   26)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ty797gwmyd0721weeb3b90_jpeg_jpg.rf.090af0bae3e424112031c27169d6c4a9.jpg: Predicted in 9.122000 milli-seconds.
+smoke: 85%	(left_x:  427   top_y:  251   width:  114   height:   76)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tyhipjwo1707211p8ov4bm_jpeg_jpg.rf.88f0b56dc19a4affcfcde4576cb15385.jpg: Predicted in 9.102000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tyvz1p6ssd0848z1brl0fl_jpeg_jpg.rf.9c862b4d40082b031e27b24ca9a0d85e.jpg: Predicted in 9.134000 milli-seconds.
+smoke: 61%	(left_x:    5   top_y:   48   width:  158   height:  421)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tzjni6sjt50863e6a6a8fl_jpeg_jpg.rf.5695acab7fb0a45d30df03f9b3ce5bd6.jpg: Predicted in 9.060000 milli-seconds.
+smoke: 71%	(left_x:  270   top_y:  278   width:   40   height:   39)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tzkkd8ulz70701xe5upkxe_jpeg_jpg.rf.fdbad05b8ea1bbcf372d6b08f7b8273b.jpg: Predicted in 9.105000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tznjlaumey0701fbjp1dbu_jpeg_jpg.rf.e91057d46a487044d1cff13dd056f012.jpg: Predicted in 9.136000 milli-seconds.
+smoke: 51%	(left_x:  511   top_y:  293   width:  100   height:  102)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tzttgusl7o0863k0kfvcid_jpeg_jpg.rf.3c35a61710cdd64698ee1c2b06cfc961.jpg: Predicted in 9.040000 milli-seconds.
+smoke: 34%	(left_x:  171   top_y:  269   width:   35   height:   38)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tzwr6a6y270848xgzmj6hq_jpeg_jpg.rf.589b5ad77e0ee83162edd34a6cbbbb29.jpg: Predicted in 9.016000 milli-seconds.
+smoke: 67%	(left_x:  505   top_y:  313   width:  106   height:   91)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0tzzys2sm6b0863k8qyy7hp_jpeg_jpg.rf.4d6e2baec961f1b8fa0d64d8e692e187.jpg: Predicted in 9.034000 milli-seconds.
+smoke: 51%	(left_x:  387   top_y:  305   width:   39   height:   26)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0u03onjuosl0701rhy18f7o_jpeg_jpg.rf.eedc992cf7eaea99e608e1d43c39b5ee.jpg: Predicted in 9.038000 milli-seconds.
+smoke: 59%	(left_x:  278   top_y:  108   width:  336   height:  279)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0u0e1zzwydk07210xx5o9vv_jpeg_jpg.rf.003a97a150f0778bdb961d424acec92a.jpg: Predicted in 9.114000 milli-seconds.
+smoke: 28%	(left_x:  109   top_y:  306   width:  477   height:   91)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0uivtpc841h0a46ydgo7566_jpeg_jpg.rf.26dc7774bb4d3e61f678ec2c48be3518.jpg: Predicted in 9.036000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ujfqoy85bw0a46u3lgcx88_jpeg_jpg.rf.e7782fdc1eef1b39daa9535c8b8115cc.jpg: Predicted in 9.121000 milli-seconds.
+smoke: 38%	(left_x:  432   top_y:  286   width:  162   height:   59)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ujik07yqmk0721cwatmrh8_jpeg_jpg.rf.faf9243eeafa238162b343de4937dbf4.jpg: Predicted in 9.175000 milli-seconds.
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ujkl8y85nx0a4678ht59jh_jpeg_jpg.rf.3fb562c5bb72d4578ce94b04f47c230f.jpg: Predicted in 9.129000 milli-seconds.
+smoke: 66%	(left_x:  197   top_y:  276   width:   23   height:   27)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ujmglz85u10a468qt0d4fc_jpeg_jpg.rf.625ac4ed0f3928f170ee648daaca2c7a.jpg: Predicted in 8.976000 milli-seconds.
+smoke: 30%	(left_x:  129   top_y:  317   width:  370   height:   77)
+Enter Image Path:  Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+/content/gdrive/MyDrive/yolo-fire-detection/darknet/data/test/ck0ujw76nui2g0863hz7l7uqo_jpeg_jpg.rf.317e8d563d83c5547cfb8a4708314a3d.jpg: Predicted in 8.991000 milli-seconds.
+smoke: 80%	(left_x:  333   top_y:  334   width:  177   height:  108)
+Enter Image Path: 

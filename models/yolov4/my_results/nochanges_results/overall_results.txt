@@ -1,0 +1,21 @@
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+200
+ detections_count = 848, unique_truth_count = 311  
+class_id = 0, name = smoke, ap = 95.43%   	 (TP = 175, FP = 14) 
+class_id = 1, name = fire, ap = 65.99%   	 (TP = 94, FP = 66) 
+
+ for conf_thresh = 0.25, precision = 0.77, recall = 0.86, F1-score = 0.82 
+ for conf_thresh = 0.25, TP = 269, FP = 80, FN = 42, average IoU = 51.20 % 
+
+ IoU threshold = 10 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.10) = 0.807055, or 80.71 % 
+Total Detection Time: 2 Seconds
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
