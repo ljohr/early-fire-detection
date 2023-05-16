@@ -158,15 +158,15 @@ Open Wildfire Smoke Datasets: AI for Mankind [Link to GitHub Repository](https:/
 
 Cloud Dataset: AI for Mankind [Link to GitHub Repository](https://github.com/aiformankind/wildfire-smoke-dataset)
 
-YOLOv5 : [Link to GitHub Repository](https://github.com/ultralytics/yolov5 )
+YOLOv5 : ultralytics/yolov5 [Link to GitHub Repository](https://github.com/ultralytics/yolov5 )
 
 Faster R-CNN:
 
-[Link to GitHub Repository](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/tree/main)
+A Simple Pipeline to Train PyTorch FasterRCNN Model [Link to GitHub Repository](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/tree/main)
 
-[Link to Tutorial](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) 
+Detectron2 Documentation [Link to Tutorial](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) 
 
-[Link to Blog Post](https://blog.roboflow.com/how-to-use-the-detectron2-object-detection-model-zoo/ ) 
+How to Use the Detectron2 Model Zoo (for Object Detection) [Link to Blog Post](https://blog.roboflow.com/how-to-use-the-detectron2-object-detection-model-zoo/ ) 
 
 
 
