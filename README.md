@@ -69,7 +69,7 @@ Trained for a total of 100 epochs with weights pretrained on COCO Dataset
 <details>
   <summary>Major Changes</summary>
   
-  ## Adjusting Hyperparameters for fine-tuning 
+  ## Adjusting Hyperparameters for fine-tuning and data augmentation
 
   - lr0 = 0.005,  # initial learning rate (SGD=1E-2, Adam=1E-3) 
   - degrees = 45,  # image rotation (+/- deg)
@@ -131,10 +131,17 @@ Trained
 <details>
   <summary>Major Changes</summary>
   
-  ## Major Changes
-  **changes**
-  - Changed 
-    
+  ## Adjusting Hyperparameters for augmentation
+
+  - transforms.Resize((300, 300))
+  - transforms.CenterCrop((100, 100))
+  - transforms.RandomCrop((80, 80))
+  - transforms.RandomHorizontalFlip(p=0.5)
+  - transforms.RandomRotation(degrees=(-45, 45))
+  - transforms.RandomVerticalFlip(p=0.5)
+  - transforms.ToTensor()
+  - transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
+  
 </details>
 
 <details>
