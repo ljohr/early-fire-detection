@@ -16,9 +16,14 @@ To train the YOLOv8 model
 model.train(data=os.path.join(ROOT_DIR, "data.yaml"), epochs=50, degrees=45, scale=0.5, hsv_h=0.015, hsv_v=0.4, hsv_s=0.7, shear=0.5, mosaic=1.0)
 ```  
 
-To train the Faster-RCNN model
+To train the Faster R-CNN model
 ```
 !python train.py --data data_configs/custom_data.yaml -e 50 -m fasterrcnn_resnet50_fpn -n custom_training3 -b 16 
+```  
+
+To test one of our best performing models
+```
+!python detect.py --weights /best.pt --img 416 --conf 0.4 --source /{Your Dataset Path}
 ```  
 
 # YOLOv4
