@@ -126,6 +126,7 @@ Pretrained on Image Net
 # Faster R-CNN
 
 ## Method
+Trained for a total of 50 epochs with ResNet50_FPN backbone
 
 <details>
   <summary>Major Changes</summary>
