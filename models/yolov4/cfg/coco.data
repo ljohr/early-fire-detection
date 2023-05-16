@@ -1,0 +1,7 @@
+classes= 2
+train  = /content/gdrive/MyDrive/yolo-fire-detection/darknet/data/train.txt
+valid  = /content/gdrive/MyDrive/yolo-fire-detection/darknet/data/valid.txt
+test = /content/gdrive/MyDrive/yolo-fire-detection/dataset/data/test.txt
+names = data/coco.names
+eval=coco
+backup = backup 
