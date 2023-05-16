@@ -8,7 +8,8 @@ To train the YOLOv4 model
 
 To train the YOLOv5 model
 ```
-add yolov5 command
+
+!python train.py --img 416 --batch 16 --epochs 100  --data /content/drive/MyDrive/Yolov5_FireDetection/Yolo_smoke/data.yaml --weights yolov5m.pt --cache --name result_5m_weight
 ```
 
 To train the YOLOv8 model
@@ -18,7 +19,7 @@ model.train(data=os.path.join(ROOT_DIR, "data.yaml"), epochs=50, degrees=45, sca
 
 To train the Faster-RCNN model
 ```
-add command
+!python train.py --data data_configs/custom_data.yaml -e 50 -m fasterrcnn_resnet50_fpn -n custom_training3 -b 16 
 ```  
 
 # YOLOv4
