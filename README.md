@@ -157,13 +157,17 @@ Danni wrote Data_Preprocess_FireDetection.ipynb, Yolov5_FireDetection.ipynb, Fas
 Our custom dataset was too large to push to GitHub. [Link to Download](https://drive.google.com/drive/folders/1OxqfyAxrjXU0sZv9Hj4RRbFvvT19szdR?usp=share_link)
 
 # Citation
+Dataset:
+
 D-Fire Dataset: Pedro Vinícius Almeida Borges de Venâncio, Adriano Chaves Lisboa, Adriano Vilela Barbosa: An automatic fire detection system based on deep convolutional neural networks for low-power, resource-constrained devices. In: Neural Computing and Applications, 2022. [Link to GitHub Repository](https://github.com/gaiasd/DFireDataset)
 
 Open Wildfire Smoke Datasets: AI for Mankind [Link to GitHub Repository](https://github.com/aiformankind/wildfire-smoke-dataset)
 
 Cloud Dataset: AI for Mankind [Link to GitHub Repository](https://github.com/aiformankind/wildfire-smoke-dataset)
 
-YOLOv5 : ultralytics/yolov5 [Link to GitHub Repository](https://github.com/ultralytics/yolov5 )
+YOLOv5 : 
+
+ultralytics/yolov5 [Link to GitHub Repository](https://github.com/ultralytics/yolov5 )
 
 Faster R-CNN:
 
