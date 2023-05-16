@@ -1,13 +1,30 @@
 # Early Forest Fire Detection with CNN Models
 
 ## Commands
-Run in colab found in .ipynb files
-  
+To train the YOLOv4 model
+```
+!./darknet detector train cfg/coco.data cfg/yolov4-custom.cfg yolov4.conv.137 -dont_show -mjpeg_port 8090 -map
+```
+
+To train the YOLOv5 model
+```
+add yolov5 command
+```
+
+To train the YOLOv8 model
+```
+model.train(data=os.path.join(ROOT_DIR, "data.yaml"), epochs=50, degrees=45, scale=0.5, hsv_h=0.015, hsv_v=0.4, hsv_s=0.7, shear=0.5, mosaic=1.0)
+```  
+
+To train the Faster-RCNN model
+```
+add command
+```  
 
 # YOLOv4
 ## Method
 Trained for a total of 50 epochs
-Pretrained on Image Net
+Pretrained on COCO Dataset
 
 <details>
   <summary>Major Changes</summary>
@@ -18,6 +35,7 @@ Pretrained on Image Net
   - Saturation: ±50%
   - Exposure: ±50%
   - Angle: ±45º
+  - Learning Rate: 0.001 then 0.0001
     
 </details>
 
@@ -38,20 +56,28 @@ Pretrained on Image Net
 
 </details>
 
-<details>
-  <summary>Results</summary>
-  
-  ## Results: mAP @0.5, AP@0.5
-  
-  |                          |    mAP    |  Fire AP  |
-  | ---                      |     ---   |   ---     |
-  | Baseline (No Changes)    |     |     |
-  | Adjusted Hyperparameters |   N/A     |           | 
-  | Adjusted Hyperparameters |   N/A     |           | 
+# YOLOv5
 
+## Method
+Trained
+
+<details>
+  <summary>Major Changes</summary>
+  
+  ## Major Changes
+  **changes**
+  - Changed 
+    
 </details>
 
-# YOLOv5
+<details>
+  <summary>Other Changes</summary>
+  
+  ## Other Changes
+  **changes**
+  - Changed 
+
+</details>
 
 # YOLOv8
 ## Method
@@ -65,7 +91,10 @@ Pretrained on Image Net
   **ultralytics/yolo/engine/trainer.py**
   - Changed to from LambdaLR to CosineAnnealingLR 
     - Negligible impact overall, but reduced the number of background images predicted as smoke by 10% and is likely to have a bigger impact with a larger dataset. 
-    
+  
+  ## Freeze Backbone
+  - Included for loop in the get\_model function found in the yolo/v8/segment/train.py file
+  
 </details>
 
 <details>
@@ -85,20 +114,46 @@ Pretrained on Image Net
 
 </details>
 
+
+# Faster-RCNN
+
+## Method
+Trained
+
 <details>
-  <summary>Results</summary>
+  <summary>Major Changes</summary>
   
-  ## Results: mAP @0.5, AP@0.5
+  ## Major Changes
+  **changes**
+  - Changed 
+    
+</details>
+
+<details>
+  <summary>Other Changes</summary>
   
-  |                          |    mAP    |  Fire AP  |
-  | ---                      |     ---   |   ---     |
-  | Baseline (No Changes)    |     |     |
-  | Adjusted Hyperparameters |   N/A     |           | 
-  | Adjusted Hyperparameters |   N/A     |           | 
+  ## Other Changes
+  **changes**
+  - Changed 
 
 </details>
 
 
-# Faster-RCNN
+# Contribution
+```
+Sara wrote
+```
+
+```
+Danni wrote
+```
+
+# Dataset
+Our custom dataset was too large to push to GitHub. [Link to Download]()
 
 # Citation
+D-Fire Dataset: Pedro Vinícius Almeida Borges de Venâncio, Adriano Chaves Lisboa, Adriano Vilela Barbosa: An automatic fire detection system based on deep convolutional neural networks for low-power, resource-constrained devices. In: Neural Computing and Applications, 2022. [Link to GitHub Repository](https://github.com/gaiasd/DFireDataset)
+
+Open Wildfire Smoke Datasets: AI for Mankind [Link to GitHub Repository](https://github.com/aiformankind/wildfire-smoke-dataset)
+
+Cloud Dataset: AI for Mankind [Link to GitHub Repository](https://github.com/aiformankind/wildfire-smoke-dataset)
