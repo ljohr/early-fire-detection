@@ -146,11 +146,11 @@ Trained
 
 # Contribution
 ```
-Sara wrote run_yolov4.ipynb, run_yolov8.ipynb, changes to cfg/yolov4-custom.cfg, ultralytics/yolo/engine/trainer.py, yolo/v8/segment/train.py, read_label_nums.py script, get_img_path.py script, changes to yolov5/utils/agumentation.py, yolov5/data/hyps/hyp.finetune.yaml, Faster-RCNN/fastercnn-pytorch-training-pipeline/datasets.py
+Sara wrote run_yolov4.ipynb, run_yolov8.ipynb, changes to cfg/yolov4-custom.cfg, ultralytics/yolo/engine/trainer.py, yolo/v8/segment/train.py, read_label_nums.py script, get_img_path.py script
 ```
 
 ```
-Danni wrote Data_Preprocess_FireDetection.ipynb, Yolov5_FireDetection.ipynb, Faster_RCNN_detectron2_fire.ipynb, Faster_RCNN_pytorch_fire.ipynb
+Danni wrote Data_Preprocess_FireDetection.ipynb, Yolov5_FireDetection.ipynb, Faster_RCNN_detectron2_fire.ipynb, Faster_RCNN_pytorch_fire.ipynb, changes to yolov5/utils/agumentation.py, yolov5/data/hyps/hyp.finetune.yaml, Faster-RCNN/fastercnn-pytorch-training-pipeline/datasets.py
 ```
 
 # Dataset
