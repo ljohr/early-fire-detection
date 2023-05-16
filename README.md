@@ -157,3 +157,14 @@ D-Fire Dataset: Pedro Vinícius Almeida Borges de Venâncio, Adriano Chaves Lisb
 Open Wildfire Smoke Datasets: AI for Mankind [Link to GitHub Repository](https://github.com/aiformankind/wildfire-smoke-dataset)
 
 Cloud Dataset: AI for Mankind [Link to GitHub Repository](https://github.com/aiformankind/wildfire-smoke-dataset)
+
+YOLOv5 : [Link to GitHub Repository](https://github.com/ultralytics/yolov5 )
+
+Faster R-CNN
+https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/tree/main
+
+https://detectron2.readthedocs.io/en/latest/tutorials/install.html
+
+https://blog.roboflow.com/how-to-use-the-detectron2-object-detection-model-zoo/ 
+
+
