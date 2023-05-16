@@ -64,7 +64,7 @@ Pretrained on COCO Dataset
 # YOLOv5
 
 ## Method
-Trained
+Trained for a total of 100 epochs with weights pretrained on COCO Dataset
 
 <details>
   <summary>Major Changes</summary>
