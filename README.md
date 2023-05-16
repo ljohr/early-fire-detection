@@ -69,7 +69,7 @@ Trained for a total of 100 epochs with weights pretrained on COCO Dataset
 <details>
   <summary>Major Changes</summary>
   
-  ## Adjusting Hyperparameters for fine-tuning and data augmentation
+  ## Adjusting hyperparameters for fine-tuning and data augmentation
 
   - lr0 = 0.005,  # initial learning rate (SGD=1E-2, Adam=1E-3) 
   - degrees = 45,  # image rotation (+/- deg)
@@ -131,7 +131,7 @@ Trained for a total of 50 epochs with ResNet50_FPN backbone
 <details>
   <summary>Major Changes</summary>
   
-  ## Adjusting Hyperparameters for augmentation
+  ## Adjusting hyperparameters for data augmentation
 
   - transforms.Resize((300, 300))
   - transforms.CenterCrop((100, 100))
