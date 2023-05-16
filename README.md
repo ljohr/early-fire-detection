@@ -28,7 +28,7 @@ To test one of our best performing models
 
 # YOLOv4
 ## Method
-Trained for a total of 50 epochs pretrained on COCO Dataset
+Trained for a total of 50 epochs with weights pretrained on COCO Dataset
 
 <details>
   <summary>Major Changes</summary>
@@ -88,7 +88,7 @@ Trained for a total of 100 epochs with weights pretrained on COCO Dataset
 
 # YOLOv8
 ## Method
-Trained for a total of 50 epochs pretrained on COCO Dataset
+Trained for a total of 50 epochs with weights pretrained on COCO Dataset
 
 <details>
   <summary>Major Changes</summary>
