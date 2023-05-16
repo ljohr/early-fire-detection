@@ -160,11 +160,13 @@ Cloud Dataset: AI for Mankind [Link to GitHub Repository](https://github.com/aif
 
 YOLOv5 : [Link to GitHub Repository](https://github.com/ultralytics/yolov5 )
 
-Faster R-CNN
-https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/tree/main
+Faster R-CNN:
 
-https://detectron2.readthedocs.io/en/latest/tutorials/install.html
+[Link to GitHub Repository](https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/tree/main)
 
-https://blog.roboflow.com/how-to-use-the-detectron2-object-detection-model-zoo/ 
+[Link to Tutorial](https://detectron2.readthedocs.io/en/latest/tutorials/install.html) 
+
+[Link to Blog Post](https://blog.roboflow.com/how-to-use-the-detectron2-object-detection-model-zoo/ ) 
+
 
 
