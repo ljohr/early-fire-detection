@@ -70,7 +70,7 @@ Trained for a total of 100 epochs with weights pretrained on COCO Dataset
   <summary>Major Changes</summary>
   
   ## Adjusting Hyperparameters for fine-tuning 
-  **changes**
+
   - lr0 = 0.005,  # initial learning rate (SGD=1E-2, Adam=1E-3) 
   - degrees = 45,  # image rotation (+/- deg)
   - shear = 0.5,  # image shear (+/- deg)
