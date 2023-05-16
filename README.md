@@ -23,7 +23,7 @@ To train the Faster R-CNN model
 
 To test one of our best performing models
 ```
-!python detect.py --weights /best.pt --img 416 --conf 0.4 --source /{Your Dataset Path}
+!python detect.py --weights models/yolov5/best.pt --img 416 --conf 0.4 --source /{Your Dataset Path}
 ```  
 
 # YOLOv4
@@ -120,7 +120,7 @@ Pretrained on Image Net
 </details>
 
 
-# Faster-RCNN
+# Faster R-CNN
 
 ## Method
 Trained
